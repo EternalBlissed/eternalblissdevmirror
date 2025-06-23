@@ -1,3 +1,3 @@
 # eternalbliss.dev
 
-My current site, mirrored to Github Pages because Codeberg Pages didn't work out for me.
+My current site, mirrored to github because Vercel doesn't work on codeberg.
