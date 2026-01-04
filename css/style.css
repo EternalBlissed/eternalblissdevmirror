@@ -20,8 +20,10 @@ body {
   background-color: var(--background-color);
   color: var(--color);
   padding: 10px;
-  width: 50%;
+  width: 60%;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .fourzerofour {
@@ -46,6 +48,12 @@ body {
   display: flex;
   align-items: center;
   gap: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    flex-direction: column;
+  }
 }
 
 .pfp img {
@@ -79,6 +87,7 @@ h5,
 h6 {
   font-family: var(--font-family);
   color: var(--color);
+  overflow: auto;
 }
 a {
   color: var(--link-color);
@@ -134,4 +143,8 @@ blockquote {
 footer {
   padding: 25px 0;
   text-align: center;
+}
+nav {
+  white-space: nowrap;
+  overflow: auto;
 }
